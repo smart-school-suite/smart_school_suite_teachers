@@ -101,7 +101,7 @@ Make sure you have these installed:
 #### Installation
 1. Clone the  repository:
 ``git clone
- https://github.com/[Keron484]/[https://github.com/keron484/smart_school_suite_teachers].git
+ https://github.com/[Keron484]/[https://github.com/smart-school-suite/smart_school_suite_teachers.git].git
 ``
 
 2. Install dependencies:
