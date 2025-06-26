@@ -1,50 +1,178 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+# SMART SCHOOL SUITE TEACHERS (SSS TEACHERS)
+The Smart School Suite Teachers (SSS Teachers) is a mobile app which extends the power of the Smart School Suite directly to the teacher's fingertips, offering a streamlined and intuitive experience for managing daily classroom operations on the go. This SSS Teacher  aims to enhance teacher efficiency, flexibility, reduce administrative overhead, enhance real-time engagement and responsiveness, ensuring that educators can manage critical tasks seamlessly, whether in the classroom, at home, or on the move, thus improving the overall educational experience. 
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
+## ABOUT (SSS Teachers)
+### What it is?
+The Smart School Suite Teachers (SSS Teachers) is a dedicated mobile application that serves as the teacher's primary interface to the broader Smart School Suite (SSS) it is meticulously designed for educators, delivering the most essential school management tools directly to their mobile device. It's built to work in harmony with the main SSS system, ensuring seamless data flow and consistent functionality.
+### Why it was Created?
+The Smart School Suite Teachers (SSS Teachers) was created to address the need for mobility and instant access. It aims to reduce administrative burdens, provide real-time data at their fingertips, and ensure that critical tasks like attendance, grading, and communication can be handled efficiently, whether in the classroom, during a break, or even remotely.
+### What does it aim to achieve?
+SSS Teachers aims to:
+- Enable real-time updates and notifications, facilitating quicker communication with students, parents, and administration. 
+- Streamline routine administrative tasks, allowing teachers to dedicate more time and energy to actual teaching and student engagement. 
+- Offer instant access to student performance data and analytics, empowering teachers to make informed pedagogical decisions. 
+### Target Audience
+The primary target audience for the SSS Teachers is for all educators (teachers, instructors, teaching assistants) who utilize the Smart School Suite within their educational institutions.
 
-   ```bash
-   npx expo start
-   ```
+## FEATURES
+  💰 **Teacher Salary Management** 
 
-In the output, you'll find options to open the app in a
+Securely view and manage salary details, including payment history, breakdowns, and 
+upcoming payouts — all in one place
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+👨‍🏫 **Manage Course Media**
 
-## Get a fresh project
+Upload, organize, and distribute digital learning materials like notes, slides, and videos to 
+students for seamless course delivery. 
 
-When you're ready, run:
+📚 **View Courses** 
 
-```bash
-npm run reset-project
-```
+ Instantly access all assigned courses with key details such as enrolled students, course 
+duration, and performance metrics. 
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+ 🗓️ **View Schedule**
 
-## Learn more
+Stay organized with a personalized timetable showing daily and weekly class sessions, 
+meetings, and other school obligations. 
 
-To learn more about developing your project with Expo, look at the following resources:
+📈  **View Course-Based Performance**
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Analyze how students are performing across entire courses using intuitive dashboards and 
+performance trends 
 
-## Join the community
+📊 **View Student-Based Performance**
+ 
+Dive into detailed academic records to evaluate individual student strengths, weaknesses, 
+and overall progress. 
 
-Join our community of developers creating universal apps.
+  ✅ **Manage Class Attendance**
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Effortlessly take, edit, and track attendance records with smart tools that save time and 
+improve accuracy. 
+
+ 📝  **Manage Student Assignments**
+
+Create, distribute, grade, and give feedback on assignments — keeping the learning process 
+structured and transparent. 
+
+🎉 **View Upcoming School Events**
+
+Stay informed and involved with all scheduled school activities, workshops, and important 
+institutional events. 
+
+  🗳️**View Upcoming Elections** 
+
+Access information about school elections, candidates, and roles, encouraging teacher 
+engagement in the school’s civic processes. 
+
+
+## TECHNOLOGIES USED
+#### FrameWorks
+- React Native 
+#### Frontend (Client-side - within the mobile app) 
+- Expo Go  
+- shopify/flash-list (Optional)  
+- Redux Toolkit (@reduxjs/toolkit)  
+- React-redux  
+- React Query (@tanstack/react-query)  
+- date-fns  
+- date-fns-tz  
+- expo-localization  
+- react-native-community/netinfo  
+- react-native-async-storage/- -
+- async-storage  
+- expo-background-task  
+- expo-notifications
+## INSTALLATION
+Ready to run SSS Teachers? Here's how to get it going on your local machine:
+
+#### Prerequisites
+Make sure you have these installed:
+- Node.js & npm (or Yarn)
+- Git
+- Expo CLI (``npm install -g expo-cli``)
+- Expo Go App on your mobile device (from App Store/Google Play)
+
+#### Installation
+1. Clone the  repository:
+``git clone
+ https://github.com/[Keron484]/[https://github.com/smart-school-suite/smart_school_suite_teachers.git].git
+``
+
+2. Install dependencies:
+``npm install
+or yarn install
+``
+
+3. Configure environment variables (if applicable):
+``cp .env.example .env``
+
+#### Run the Application
+1. Start the Expo development server:
+``expo start``
+
+2. **Open on your device:** Scan the QR code displayed in your terminal with the Expo Go app on your phone, or click to run on an iOS simulator or Android emulator from the Expo Dev Tools UI in your browser.
+
+## USAGE
+Once the SSS Teachers application is successfully running on your device or emulator:
+
+1. **Launch the App:** It will appear within the Expo Go client.
+
+2. **Log In:**
+- Open the SSS Teacher App on your mobile device.
+- You'll use the same username and password that you use to log into the main Smart School Suite web portal.
+- Enter your assigned teacher username and password into the respective fields.
+- Tap the "Login" button
+
+3. **Navigate & Interact:**
+- Exploring your dashboard which provides a snapshot of upcoming classes, pending assignments, important announcements, and quick links to frequently used sections.
+- Accessing Your Courses Here, you'll see a list of all courses you are currently teaching. Tap on any course name to view its specific details, enrolled students, course content, and associated assignments.
+- Managing Class Attendance Select the class and date for which you want to record attendance.The app will display your class roster. Tap on each student's name to mark them as Present, Absent, Late, or other status options provided.
+- Managing Student Assignments you can create new assignment, Entering assignment details like title, description, due date, points, and attach relevant files (e.g., worksheets, rubrics).
+- Track Progress: Get an overview of assignment statuses (assigned, submitted, graded).
+
+## SCREENSHOTS/DEMOS
+![Home screen](./assets/mockup%20images/image3.png)
+
+![Courses](./assets/mockup%20images/image1.png)
+
+
+
+
+## CONTRIBUTION
+We welcome your contributions to SSS Teachers! Your help makes our platform better for everyone.
+
+#### How You Can Help
+- **Report Bugs:** Let us know about issues you find.
+- **Suggest Features:** Share your ideas for new functionalities.
+- **Submit Code:** Contribute bug fixes or new features.
+
+#### Guidelines
+1. **Code of Conduct:** Please adhere to our [Code of Conduct](https://github.com/probot/template/blob/master/CODE_OF_CONDUCT.md) for a welcoming community.
+2. **Reporting Issues:**
+- **Bugs:** Search existing issues first. If new, open a "Bug report" and provide clear steps to reproduce, expected vs. actual behavior, and environment details.
+- **Features:** Search existing suggestions. If new, open a "Feature request" and explain the problem it solves, your proposed solution, and its benefits.
+3. **Submitting Code (Pull Requests):**
+- **Fork & Clone:** Fork the repo, then clone your fork.
+New Branch: Create a descriptive new branch (``git checkout -b feature/your-feature``).
+- **Install Dependencies:** Run ``npm install`` (or ``yarn install``).
+- **Make Changes:** Implement your code.
+- **Commit:** Write clear, concise messages (e.g., ``feat: Add new notification type``).
+- **Push & PR:** Push your branch, then open a Pull Request explaining your changes.
+We appreciate your effort and will review your contributions as quickly as possible!
+
+## LICENSE
+The Smart School Suite Teachers (SSS teachers) mobile application operates as a Software as a Service (SaaS) platform. As such, users are granted access to and usage of the service under specific contractual terms.
+
+
+## CONTACT
+Have questions, suggestions, or just want to connect about the SSS Teachers project? We'd love to hear from you!
+
+- **GitHub Issues:** For bugs or feature requests, please use our [GitHub Issues page](https://github.com/orgs/community/discussions/56049).
+- **Email:** For direct inquiries or collaborations: [chongongprecious@gmail.com](https://mail.google.com/mail/u/0/#inbox/FMfcgzQbfVBKSQKQJLlCCXbMrjBxsjGX)
+- **Project Repository:** Find us on GitHub: [keron484](https://github.com/keron484)/ [https://github.com/keron484/smart_school_suite_teachers](https://github.com/keron484/smart_school_suite_teachers)
