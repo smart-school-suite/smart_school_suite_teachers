@@ -137,9 +137,9 @@ Once the SSS Teachers application is successfully running on your device or emul
 - Track Progress: Get an overview of assignment statuses (assigned, submitted, graded).
 
 ## SCREENSHOTS/DEMOS
-![Home screen](./assets/mockup images/mockup-image1.png)
+![Home screen](./assets/mockup%20images/image3.png)
 
-![Courses](./assets/mockups/mockup-image11.png)
+![Courses](./assets/mockup%20images/image2.png)
 
 
 
