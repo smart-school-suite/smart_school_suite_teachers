@@ -1,7 +1,7 @@
 
 
 # SMART SCHOOL SUITE TEACHERS (SSS TEACHERS)
-The Smart School Suite Teachers (SSS Teachers)is a mobile app which extends the power of the Smart School Suite directly to the teacher's fingertips, offering a streamlined and intuitive experience for managing daily classroom operations on the go. This SSS Teacher  aims to enhance teacher efficiency, flexibility, reduce administrative overhead, enhance real-time engagement and responsiveness, ensuring that educators can manage critical tasks seamlessly, whether in the classroom, at home, or on the move, thus improving the overall educational experience. 
+The Smart School Suite Teachers (SSS Teachers) is a mobile app which extends the power of the Smart School Suite directly to the teacher's fingertips, offering a streamlined and intuitive experience for managing daily classroom operations on the go. This SSS Teacher  aims to enhance teacher efficiency, flexibility, reduce administrative overhead, enhance real-time engagement and responsiveness, ensuring that educators can manage critical tasks seamlessly, whether in the classroom, at home, or on the move, thus improving the overall educational experience. 
 
 
 
@@ -125,7 +125,7 @@ Once the SSS Teachers application is successfully running on your device or emul
 
 2. **Log In:**
 - Open the SSS Teacher App on your mobile device.
-- You'll use the same username and password that you use to log into the main Smart School Suite web portal on your computer.
+- You'll use the same username and password that you use to log into the main Smart School Suite web portal.
 - Enter your assigned teacher username and password into the respective fields.
 - Tap the "Login" button
 
@@ -139,7 +139,7 @@ Once the SSS Teachers application is successfully running on your device or emul
 ## SCREENSHOTS/DEMOS
 ![Home screen](./assets/mockup%20images/image3.png)
 
-![Courses](./assets/mockup%20images/image2.png)
+![Courses](./assets/mockup%20images/image1.png)
 
 
 
